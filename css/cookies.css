@@ -1,0 +1,28 @@
+/* nibir.me - Nibir Bora
+*
+* Copyright (C) Nibir Bora
+* Author: Nibir Bora <nbora@usc.edu>
+* URL: <http://nibir.me/>
+* For license information, see LICENSE
+*/
+
+
+.text-small {
+	font-size:11px;
+}
+.text-tiny {
+	font-size:10px;
+}
+
+.text-light {
+	color:#888;
+}
+
+
+.text-right {
+	text-align:right;
+}
+
+.text-left {
+	text-align:left;
+}
