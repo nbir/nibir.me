@@ -81,7 +81,7 @@ For license information, see LICENSE
 			<div class="row">
 				<div class="span8 offset4">
 					
-					<h2 class="muted">etola <small>[<a target="_blank" href="//github.com/nibirbora/etola/">github</a>]</small></h2>
+					<h2 class="text-info">etola <small>[<a target="_blank" href="//github.com/nibirbora/etola/">github</a>]</small></h2>
 					<p class="lead muted"><em>Document Clustering</em></p>
 					<br />
 					
@@ -92,13 +92,71 @@ For license information, see LICENSE
 						<li><a href="publications.html">publications</a></li>
 						<li><a href="people.html">people</a></li>
 					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="span4 text-right push-down-75">
+					<p class="muted">Bachelor thesis [<a target="_blank" href="~files/Nibir_Bora_(bachelor_thesis).pdf">.pdf</a>]<br /></p>
+				</div>
+				
+				<div class="span8">	
+					<h4 class="text-info">motivation</h4>
+					<hr />
 					
-					<p>Lorem ipsum dolor sit amet, usu erat dolorum ad. Usu harum erroribus cu, pri ea petentium sapientem gloriatur. Sed ad vide recusabo iracundia, no duis accusata est. Primis consulatu efficiantur ad sed. Eos iisque sanctus abhorreant ei. Te tollit eirmod aliquam eum. Sit ridens quodsi bonorum cu, salutatus dignissim et mel.</p>
-
-					<p>Pro an admodum officiis legendos, verear delicata pro no. Ei vis erant tritani contentiones, est cu debet corpora. In quidam scaevola neglegentur usu, eu cum euismod accusamus. Legendos definitiones te sed, sit brute putant et.</p>
-
-					<p>Probatus intellegat vis eu, meis disputando liberavisse sit cu. Fabellas persecuti efficiendi ne has, nisl quando ut usu. Usu audire feugiat epicurei at, no unum diceret volumus mei. At affert viderer nec, qui tota doming posidonium cu.</p>
-
+					<p>News headlines, unlike bigger text documents like blogs and reviews, are constricted and succinct. They further do not guarantee correctness of grammar. Clustering news headlines thus allow involving modified versions of the regular clustering methods as well as various heuristic techniques.</p>
+					
+					<br />
+					<h4 class="text-info">phase 1</h4>
+					<hr />
+					
+					<ul>
+						<li>Proposed a hypothesis to identify the key term in a news headline.</li>
+						<li>Based on the hypothesis implemented a heuristic version of <em>Frequent-feature clustering</em> algorithm.</li>
+						<li>Also implemented the same heuristics in <em>Frequent-noun clustering</em> algorithm.</li>
+						<li>Formed a dataset by extracting news headlines from the Reuters corpus. <em>Size</em>: 343 headlines in 26 classes.</li>
+						<li>Evaluated in terms of number of classes correctly identified and number of documents in correct clusters.</li>
+						<li>Compared results with K-means clustering.</li>
+					</ul>
+					
+					<br />
+					<h4 class="text-info">the heuristics</h4>
+					<hr />
+					
+					<blockquote>
+						<p>The lesser the number of terms in a document, the easier it is to identify the key term.</p>
+						<small>A document contains only one key term.</small>
+					</blockquote>
+					
+					<br />
+					<h4 class="text-info">phase 2</h4>
+					<hr />
+					
+					<ul>
+						<li>Evaluate results using more well-known techniques like F-measure, Entropy etc.</li>
+						<li>Comparison  of results to similar studies like STC, Scatter/Gather etc.</li>
+						<li>Evaluate other corpuses like TREC, 20 Newsgroups etc. and other short-text corpuses.</li>
+						<li>Test the heuristics on larger text like news posts, or headline and description.</li>
+						<li>Since news headlines are indited by experts, they usually follow a variety of linguistic styles. Use of WordNet synsets.</li>
+					</ul>
+					
+					<br />
+					<h4 class="text-info">results</h4>
+					<hr />
+					
+					<p>We proposed a novel heuristics which could be incorporated into the regular frequent term-based clustering and frequent noun-based clustering algorithms to produce better results. The heuristics was implemented and compared with traditional k-means, frequent term and frequent noun clustering. Five datasets were used for evaluating these clustering algorithms - Reuters343, Reuters2388 (news headlines), CICLing-2002, Hep-ex and KnCr (scientific abstracts), and the results were interpreted based on three common external cluster quality evaluation measures - purity, entropy and F measure.</p>
+					
+					<br />
+					<h4 class="text-info">conclusion</h4>
+					<hr />
+					<p>On investigating the results, the following conclusions were drawn:</p>
+					
+					<ul>
+						<li>Using a small noiseless dataset of news headlines (Reuters343) our heuristic clustering algorithms performed at par with, or even better than, few intuitive algorithms like bisecting k-means, buckshot and fractionation. The general order of increasing performance was k-means, FT, FT<em>plus</em>, FN, FN<em>plus</em>, based on all three evaluation measures.</li>
+						<li>With a larger and noisier dataset of news headlines (Reuters2388) the performance variations were mild. However, based on a single evaluation measure (entropy), the general order of increasing performance remained same.</li>
+						<li>While using datasets comprising of scientific abstracts (CICLing-2002, Hep-ex and KnCr) there was no apparent performance increase. In fact, in one case (using Hep-ex dataset), the cluster quality of frequent term and frequent term <em>plus</em> algorithms degraded over k-means.</li>
+					</ul>
+					
 				</div>
 			</div>
 			
