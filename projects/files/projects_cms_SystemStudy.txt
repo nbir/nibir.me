@@ -1,0 +1,13 @@
+The program listed before is a prototype model of a company software. It has features like adding a new employee, changing one’s profile, and a simple mail service. It is a handy program with an easy user interface, although it does not meet high standards.
+
+The ‘Add New Employee’ option allows us to add a new Employee to the Employee database. All personal details are taken along with the username and password. The username is checked for existence in the database. A unique Employee Code is allotted for each new entry. All the information is stored in a file named ‘EmployeeDatabase.nnb’.
+
+The ‘View Profile’ option allows us to search for the details of any employee in the existing Employee database. The details can be searched for by entering either (i)Employee Name, (ii)UserName, or (iii)Employee Code. If the search item is found, it is subsequently displayed.
+
+The ‘Change Profile’ option allows us to change the details of an existing profile, including username and password, after confirmation of the existing username and password.
+
+The ‘Send Mail’ option allows us send mail to an employee by entering the sender username and password, and the receiver’s Name.
+
+The ‘Check Mail’ option allows us to check the mails in the employee’s inbox by entering his/her username and password. The Sender’s name and date is displayed. The Inbox is automatically cleared after the mail is seen once.
+
+On the whole it is a good program having various advantages. First of all, it allows us to maintain a regular Employee Database having details of each employee. Secondly, any details about any employee can be easily searched for. Thirdly, it allows the Employee to make any necessary changes to his/her profile. And fourthly, it allows communication between the employees through a simple mail service.
