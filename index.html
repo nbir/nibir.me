@@ -1,112 +1,297 @@
 <!DOCTYPE html>
 
-<!--
-nibir.me - Nibir Bora
-
-Copyright (C) Nibir Bora
-Author: Nibir Bora <nbora@usc.edu>
-URL: <http://nibir.me/>
-For license information, see LICENSE
--->
-
 <html lang="en">
+
+
 	<head>
-		<title>Nibir Bora</title>
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="Nibir Bora's online share of Cookies, Pancakes & Love." />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+		<meta name="description" content="Nibir Bora" />
 		<meta name="author" content="Nibir Bora" />
 
-		<!-- JQUERY RESOURCES -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+		<title>Nibir Bora</title>
 
-		<link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/smoothness/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="css/layout.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="css/layout_small.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="css/styles_small.css" />
 
-		<!-- BOOTSTRAP RESOURCES -->
-		<link href="//nibir.me/css/bootstrap.min.css" rel="stylesheet">
-		<script src="//nibir.me/js/bootstrap.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab|Josefin+Sans:400,600,700|Bonbon' rel='stylesheet' type='text/css'>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-		<!-- COOKIES, PANCAKES & LOVE RESOURCES -->
-		<link href="//127.0.0.1:8020/nibir.me/css/cookies.css" rel="stylesheet">
-		
-		<script src="//127.0.0.1:8020/nibir.me/js/href-all.js"></script>
-		
-		<script>
-			window.location = "./about/";
-		</script>
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 	</head>
 
+
 	<body>
-		<!-- HEADER -->
-		<div class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a id="a-home" class="brand" href="#"><span class="text-info">nibir<strong>Bora</span></strong></a>
-
-					<div class="nav-collapse">
-						<ul class="nav">
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-								
-								<ul class="dropdown-menu">	
-									<li class="nav-header">Research</li>
-									<li><a id="a-project-gambit" href="#"></a></li>
-									<li><a id="a-project-dirbi" href="#">Dirbi</a></li>
-									<li><a id="a-project-etola" href="#">Etola</a></li>
-									<li><a id="a-project-mejaj" href="#">Mejaj</a></li>
-									<li class="divider"></li>
-									
-									<li class="nav-header">Course Projects</li>
-									<li><a id="a-project-ssms" href="#">SSMS</a></li>
-									<li><a id="a-project-others" href="#">Others</a></li>
-									<li class="divider"></li>
-									
-									<li><a id="a-project-all" href="#">All Projects</a></li>
-								</ul>
-							</li>
-
-							<li><a id="a-writing" href="#">Writing</a></li>	
-							<li><a id="a-calendar" href="#">Calendar</a></li>
-							<li><a id="a-about" href="">About</a></li>
-						</ul>
-					</div>
-
-					<a id="a-cpl" href="#" class="pull-right btn btn-info"> Cookies, Pancakes & Love </a>
-				</div>
-			</div>
-		</div>
-
 		<div class="container">
-			<div class="row" style="height:500px;"></div>
-		</div>
-		
-		<!-- FOOTER -->
-		<footer class="footer">
-			<div class="container">
-				<div class="span4">
-					<h6><strong>What went into building this website?</strong></h6>
-					<p class="text-small text-light">
-						<a target="_blank" href="//www.w3.org/TR/html5/">HTML5</a>,
-						<a target="_blank" href="//www.w3.org/Style/CSS/">CSS3</a>,
-						<a target="_blank" href="//developer.mozilla.org/en-US/docs/JavaScript">JavaScript</a>,
-						<a target="_blank" href="//jquery.com/">jQuery</a>,
-						<a target="_blank" href="//twitter.github.com/bootstrap/">Twitter Bootstrap</a>
-						<br />
-						...and lots of <em>Cookies, Pancakes & Love.</em>
-					</p>
-				</div>
 
-				<div class="span4 pull-right text-right">
-					<h6>Find me on <a target="_blank" href="//github.com/nibirbora">github</a>,
-					<a target="_blank" href="//linkedin.com/pub/nibir-bora/50/376/585">linkedin</a>,
-					<a target="_blank" href="//twitter.com/nibirbora">twitter</a>, and
-					<a target="_blank" href="//facebook.com/nibirbora">facebook</a>.</h6>
-						
-					<a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+			<div id="menubar" class="block">
+				<a id="logo" href="#">Nibir Bora</a>
+			</div>
+
+
+			<div id="links" class="block">
+				<div class="block-line center">
+					<a target="_blank" href="//www.facebook.com/nibirbora">
+						<i class="icon-facebook"></i> facebook
+					</a>
+					<a target="_blank" href="//www.instagram.com/nibirbora">
+						<i class="icon-instagram"></i> instagram
+					</a>
+					<a target="_blank" href="//www.twitter.com/nibirbora">
+						<i class="icon-twitter"></i> twitter
+					</a>
+					<a target="_blank" href="//www.pinterest.com/nibirbora">
+						<i class="icon-pinterest"></i> pinterest
+					</a>
+					<a target="_blank" href="//www.linkedin.com/in/nibirbora">
+						<i class="icon-linkedin"></i> linkedin
+					</a>
+					<a target="_blank" href="//www.github.com/nbir">
+						<i class="icon-github"></i> github
+					</a>
+				</div>
+				<div class="block-line center">
+					<a target="_blank" href="calendar/">
+						<i class="icon-calendar"></i> calendar
+					</a>
+					<a target="_blank" href="mailto:nbora@usc.edu">
+						<i class="icon-envelope-alt"></i> nbora@usc.edu
+					</a>
+					<a target="_blank" href="files/Nibir_Bora_(resume).pdf">
+						<i class="icon-file-text-alt"></i> resume
+					</a>
 				</div>
 			</div>
-		</footer>
+
+
+			<div id="slider" class="block">
+				<!-- <h4 id="quote">"Fight On!"</h4> -->
+				<img id="img-slider" src="images/img-slider-2.png" />
+				<p class="img-desc">Wilshire Blvd., Los Angeles, CA. <i class="icon-map-marker"></i></p>
+			</div>
+
+
+
+			<div class="block">
+				<div class="title">
+					<h2><span>Projects</span></h2>
+				</div>
+				
+				<div class="circle">
+					<a href="//cbg.isi.edu/projects/gambit/">
+						<div id="project1" class="circle-upper">
+							<div class="circle-icon">
+								<i class="icon-globe icon-2x"></i>
+							</div>
+							<h3 class="circle-title">Spatio-temporal</h3>
+							<h3 class="circle-title">Analytics</h3>
+						</div>
+						<div class="circle-lower">
+							<p>Geospatial Analysis of Motion</p>
+							<p>-Based Intelligence & Tracking</p>
+							<p>(GAMBIT)</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="circle">
+					<a href="projects/etola/">
+						<div id="project2" class="circle-upper">
+							<div class="circle-icon">
+								<i class="icon-tasks icon-2x"></i>
+							</div>
+							<h3 class="circle-title">Short text</h3>
+							<h3 class="circle-title">Clustering</h3>
+						</div>
+						<div class="circle-lower">
+							<p>Heuristic Clustering of News</p>
+							<p>Headlines</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="circle">
+					<a href="projects/mejaj/">
+						<div id="project3" class="circle-upper">
+							<div class="circle-icon">
+								<i class="icon-smile icon-2x"></i>
+							</div>
+							<h3 class="circle-title">Twitter</h3>
+							<h3 class="circle-title">Sentiment Analysis</h3>
+						</div>
+						<div class="circle-lower">
+							<p>Sentiment Classification of</p>
+							<p>Tweets</p>
+						</div>
+					</a>
+				</div>
+
+
+				<div class="circle">
+					<a href="projects/dirbi/">
+						<div id="project4" class="circle-upper">
+							<div class="circle-icon">
+								<i class="icon-group icon-2x"></i>
+							</div>
+							<h3 class="circle-title">Multi-modal</h3>
+							<h3 class="circle-title">Human</h3>
+							<h3 class="circle-title">Communication</h3>
+						</div>
+						<div class="circle-lower">
+							<p>Socio-cultural Elements in</p>
+							<p>Multi-modal Human</p>
+							<p>Communication</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="circle">
+					<a href="posts/2013/sentiment-analysis-vocal-cues/ppt/">
+						<div id="project5" class="circle-upper">
+							<div class="circle-icon">
+								<i class="icon-volume-up icon-2x"></i>
+							</div>
+							<h3 class="circle-title">Multi-modal</h3>
+							<h3 class="circle-title">Natural Language</h3>
+							<h3 class="circle-title">Processing</h3>
+						</div>
+						<div class="circle-lower">
+							<p>Sentiment Analysis on</p>
+							<p>Conversational Speech</p>
+							<p>Transcriptions using Vocal</p>
+							<p>Cues</p>
+						</div>
+					</a>
+				</div>
+
+				<div id="all-projects">
+					<a href="projects/">
+						<h3><i class="icon-chevron-right icon-large"></i>
+							All Projects</h3>
+					</a>
+				</div>
+
+				<div class="clear-fix"></div>
+			</div>
+
+
+			<div class="block">
+				<div class="title">
+					<h2><span>Writing</span></h2>
+				</div>
+
+				<div class="list">
+					<a target="_blank" href="#">
+						<div class="list-icon">
+							<i class="icon-file-text-alt icon-3x"></i>
+						</div>
+						<div class="list-body">
+							<h3 class="list-title">Spatiotemporal Patterns in Social Networks</h3>
+							<p>Nibir Bora, Vladimir Zaytsev, Yu-Han Chang and Rajiv Maheswaran</p>
+							<p>2013. In <span class="italics">AAAI Fall Symposium 2013 on Social Networks and Social Contagion</span> (SNSC'13)</p>
+						</div>
+						<div class="clear-fix"></div>
+					</a>
+				</div>
+
+				<div class="list">
+					<a target="_blank" href="files/bora2013socialcom.pdf">
+						<div class="list-icon">
+							<i class="icon-file-text-alt icon-3x"></i>
+						</div>
+						<div class="list-body">
+							<h3 class="list-title">Gang Networks, Neighborhoods and Holidays: Spatiotemporal Patterns in Social Media</h3>
+							<p>Nibir Bora, Vladimir Zaytsev, Yu-Han Chang and Rajiv Maheswaran</p>
+							<p>2013. In <span class="italics">2013 ASE/IEEE International Conference on Social Computing</span> (SocialCom'13)</p>
+						</div>
+						<div class="clear-fix"></div>
+					</a>
+				</div>
+
+				<div class="list">
+					<a target="_blank" href="files/bora2012icccs.pdf">
+						<div class="list-icon">
+							<i class="icon-file-text-alt icon-3x"></i>
+						</div>
+						<div class="list-body">
+							<h3 class="list-title">Heuristic Frequent Term-Based Clustering of News Headlines</h3>
+							<p>Nibir Bora, Bhabani Shankar Prasad Mishra and Satchidananda Dehuri</p>
+							<p>2012. In <span class="italics">2nd International Conference on Communication, Computing & Security</span> (ICCCS'12)</p>
+						</div>
+						<div class="clear-fix"></div>
+					</a>
+				</div>
+
+				<div class="list">
+					<a target="_blank" href="files/bora2012cicling.pdf">
+						<div class="list-icon">
+							<i class="icon-file-text-alt icon-3x"></i>
+						</div>
+						<div class="list-body">
+							<h3 class="list-title">Summarizing Public Opinions in Tweets</h3>
+							<p>Nibir Bora</p>
+							<p>2012. In Journal Proceedings of <span class="italics">International Conference on Intelligent Text Processing and Computational Linguistics</span> (CICLing'12)</p>
+						</div>
+						<div class="clear-fix"></div>
+					</a>
+				</div>
+
+				<div class="list">
+					<a target="_blank" href="files/bora2012icdcit_poster.pdf">
+						<div class="list-icon">
+							<i class="icon-file-text-alt icon-3x"></i>
+						</div>
+						<div class="list-body">
+							<h3 class="list-title">Etola: A News Headline Clustering Tool</h3>
+							<p>Nibir Bora and Bhabani Shankar Prasad Mishra</p>
+							<p>2012. In Poster Session of <span class="italics">International Conference on Distributed Computing and Internet Technologies</span> (ICDCIT'12)</p>
+						</div>
+						<div class="clear-fix"></div>
+					</a>
+				</div>
+
+				<div class="clear-fix"></div>
+			</div>
+
+
+			<div class="block">
+				<div class="title">
+					<h2><span>About</span></h2>
+				</div>
+				
+				<div id="about-img">
+					<img src="images/profile4.png" />
+					<p class="img-desc">Los Angeles, CA</p>
+					<p class="img-desc">2013</p>
+					<div class="clear-fix"></div>
+				</div>
+				<div id="about-body">
+					<p class="about-head">Nibir Bora is a graduate student at the University of Southern California, Los Angeles.</p>
+					<p>Also a Student Researcher at <a target="_blank" href="//usc.edu">USC</a>'s <a target="_blank" href="//isi.edu">Information Sciences Institute</a> in Marina del Rey, where he is a part of the <a target="_blank" href="//cbg.isi.edu">Computational Behavior Group</a>, Bora focuses on understanding human behavior in a more intricate manner.</p>
+					<p>Bora's research interests include artificial intelligence, machine learning, sentiment analysis, multimodal human communications, spatio-temporal analytics and human behavior patterns. Although unconditionally involved with computer science, he often likes to delve into fields like psychology, anthropology and sociology.</p>
+					<p>Complementary to his work as a researcher Bora enjoys music, fine arts and photography.</p>
+				</div>
+				<div class="clear-fix"></div>
+			</div>
+			
+
+		</div>
+
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-44747379-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		
 	</body>
 </html>

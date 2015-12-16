@@ -1,0 +1,5 @@
+*.DS_Store
+*.project
+~files/
+_DRAFTS/
+_EXTRAS/

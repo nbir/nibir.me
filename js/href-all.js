@@ -7,7 +7,7 @@
  */
 
 
-var BASE_URL = '//127.0.0.1:8020/nibir.me/';
+var BASE_URL = '//nibir.me/';
  
 $(document).ready(function() {
 	$('#a-home').attr('href', BASE_URL);
